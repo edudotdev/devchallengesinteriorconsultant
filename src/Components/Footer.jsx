@@ -18,7 +18,11 @@ const Foot = styled.footer`
         font-size: 15px;
         opacity: .8;
         padding-top: 15px;
-        border-top: 1px solid #ccc;
+        
+
+        @media only screen and (max-width: 425px)  {
+            border-top: 1px solid #ccc;
+        }
 
     }
 
